@@ -121,5 +121,97 @@ public class Main {
         } else {
             System.out.println("n la so khong am, khong duong");
         }
+
+        /*
+            Vòng lặp (Loop)
+                - Thuc hien 1 khoi lenh nhieu lan
+                - 3 cau truc: for, while, do - while
+                - for
+                    for(tham so 1; tham so 2; tham so 3){
+                        code block;
+                    }
+
+                    Tham so 1: thoi diem bat dau cua vong lap => thieu tham so 1: loi cu phap
+                    Tham so 2: dieu kien duy tri vong lap: Neu dieu kien tra ve false vong lap bi dung => thieu tham so 2: Vong lap vo han
+                    Tham so 3: buoc nhay cua vong lap: thay doi thoi diem bat dau cua vong lap => thieu tham so 3: vong lap vo han
+
+                    + Cach su dung: vong lap for duoc dung khi biet truoc so lan lap
+                    + Vong lap for kiem tra truoc, thuc hien sau: kiem tra tham so 2 truoc, roi moi thuc hien code block
+                        => Vong lap for co the chay 0 hoac n lan
+                - while
+                    tham so 1;
+                    while(tham so 2){
+                        code block;
+                        tham so 3;
+                    }
+
+                    + Cach su dung: Vong lap while duoc su dung khi biet truoc so lan lap hoac khi truoc so lan lap
+                    + Vong lap while kiem tra truoc, thuc hien sau: kiem tra tham so 2 truoc, roi moi thuc hien code block
+                        => Vong lap while co the chay 0 hoac n lan
+                - do while
+                    tham so 1;
+                    do {
+                        code block;
+                        tham so 3;
+                    } while(tham so 2);
+
+                    do {
+                        tham so 1;
+                        code block;
+                        tham so 3;
+                    } while(tham so 2);
+
+                    + Cach su dung: duoc dung khi biet truoc hoac khong biet truoc so lan lap
+                    + Vong lap do while thuc hien truoc, kiem tra sau: thuc hien code block truoc, sau do moi kiem tra tham so 2
+                        => Vong lap do while co the chay 1 hoac n lan
+            Mang (array):
+                - La 1 tap hop cac phan tu co cung kieu du lieu voi nhau
+                - Cac phan tu trong mang co cung ten, duoc phan biet voi nhau bang 1 so nguyen duoc goi la chi so index
+                - Index bat dau tu 0 den n - 1 (n la so phan tu cua mang)
+                - Khai bao mang:
+                    datatype[] array_name = new datatype[number_element];
+                - Truy xuat 1 phan tu trong mang:
+                    array_name[index];
+                - Truy xuat lan luot tung phan tu trong mang: dung vong lap chay theo chi so index
+        */
+
+        /*
+            2. Nhap so nguyen a. Tinh tong cac so tu 1 den a
+        */
+
+        //Khai bao a, tong = 0
+        int a, tong = 0;
+        //Nhap a
+        System.out.print("a = ");
+        a = input.nextInt();
+        //Tinh tong cac so tu 1 den a
+        for(int i = 1; i <= a; i++){
+            tong = tong + i;
+        }
+        //Hien thi ket qua
+        System.out.println("Tong cac so tu 1 den " + a + " la: " + tong);
+
+        /*
+            3. Nhap mang so nguyen co m phan tu. Tinh tong cac phan tu trong mang
+        */
+
+        //Khai bao m, tong_mang
+        int m, tong_mang = 0;
+        //Nhap m
+        System.out.print("m = ");
+        m = input.nextInt();
+        //Khai bao mang
+        int[] arr = new int[m];
+        //Nhap mang
+        for(int i = 0; i < m; i++){
+            System.out.print("arr[" + i + "] = ");
+            arr[i] = input.nextInt();
+        }
+        //Tinh tong cac phan tu trong mang
+        for(int i = 0; i < m; i++){
+            tong_mang = tong_mang + arr[i];
+        }
+        //Hien thi
+        System.out.println("Tong cac phan tu cua mang: " + tong_mang);
     }
 }

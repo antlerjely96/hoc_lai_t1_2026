@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="311f472a-f2e9-4c79-92d6-564392a2ce60" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/Main.java" afterDir="false" />
+    <list default="true" id="0a3531cb-bbe5-406a-86c6-7a77bd90ff6a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../JavaCore/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaCore/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaCore/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaCore/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaCore/src/main/java/core/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaCore/src/main/java/core/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -25,9 +26,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 8
 }</component>
-  <component name="ProjectId" id="39ZFafqrSa5tUlFCbvzmMwuPTSv" />
+  <component name="ProjectId" id="3ACmAzoNT0jmlyY2yEnrs0erOa3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,6 +41,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/DELL/IdeaProjects/hoc_lai_t1_2026/OOP",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,22 +61,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="311f472a-f2e9-4c79-92d6-564392a2ce60" name="Changes" comment="" />
+      <changelist id="0a3531cb-bbe5-406a-86c6-7a77bd90ff6a" name="Changes" comment="" />
       <created>1728003833330</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728003833330</updated>
       <workItem from="1728003834431" duration="2078000" />
-      <workItem from="1770895754376" duration="4648000" />
-      <workItem from="1772104703678" duration="85000" />
+      <workItem from="1772104791083" duration="22000" />
+      <workItem from="1772104831475" duration="4491000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
