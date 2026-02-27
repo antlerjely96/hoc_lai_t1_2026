@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7c5c587-f343-42c9-9c56-e51a44f83dc1" name="Changes" comment="" />
+    <list default="true" id="0d16da19-be40-4f6e-ac89-6e72da92d8dd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../RelationshipBetweenClasses/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RelationshipBetweenClasses/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +15,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -22,15 +23,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
+  "associatedIndex": 1
 }]]></component>
-  <component name="ProjectId" id="3AFfwjhtlY0Wwmpjg1lP4h8eTpM" />
+  <component name="ProjectId" id="3AFlsJJnnqbTGbgknpziGeibskE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CalculatorTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -55,13 +57,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b7c5c587-f343-42c9-9c56-e51a44f83dc1" name="Changes" comment="" />
+      <changelist id="0d16da19-be40-4f6e-ac89-6e72da92d8dd" name="Changes" comment="" />
       <created>1728003833330</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728003833330</updated>
       <workItem from="1728003834431" duration="2078000" />
-      <workItem from="1772193484228" duration="1780000" />
+      <workItem from="1772196409104" duration="1638000" />
     </task>
     <servers />
   </component>
